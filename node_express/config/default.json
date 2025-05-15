@@ -1,0 +1,10 @@
+{
+    "dbConfig": {
+        "host":"localhost",
+        "user":"root",
+        "password":"",
+        "database":"food_Aopp",
+        "timezone":"UTC+01:00",
+        "charset":"utf8mb4"
+    }
+}

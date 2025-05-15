@@ -1,0 +1,22 @@
+Error: ER_BAD_FIELD_ERROR: Unknown column 'user_type' in 'field list'
+    at Sequence._packetToError (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\Connection.js:198:25)
+    at Object.query (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\helpers\db_helpers.js:66:16)
+    at getUserData (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\controllers\login_controller.js:270:8)
+    at C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\controllers\login_controller.js:74:29
+    at Query.<anonymous> (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\helpers\db_helpers.js:67:24)
+    at Query.<anonymous> (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\Connection.js:488:16)
+    at Sequence.end (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\chaimaa\Desktop\projet_food_delivery\food_delivery_backend_node\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
